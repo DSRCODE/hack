@@ -15,9 +15,6 @@ const Nav = () => {
       className="Navbar-parent"
     >
       <Navbar.Brand href="#home" className="ml-auto  navBar-logo">
-        <h5 style={{ fontSize: "1rem", fontWeight: "800" }}>
-          All India Sports Monitoring
-        </h5>
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
@@ -29,7 +26,7 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Sports</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#home">Home</NavDropdown.Item>
+            <NavDropdown.Item href="#home">Cricket</NavDropdown.Item>
             <NavDropdown.Item href="#services">Services</NavDropdown.Item>
             <NavDropdown.Item href="#about">About</NavDropdown.Item>
           </NavDropdown>
