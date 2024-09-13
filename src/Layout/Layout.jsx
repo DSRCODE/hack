@@ -3,6 +3,7 @@ import Nav from "../Components/Nav";
 import Slider from "../Components/LandingPage/Slider";
 import Sport from "../Components/LandingPage/Sport";
 import "../Styles/Layout.css"
+import Footer from "../Pages/Footer";
 const Layout = () => {
   const sportData = [
     {
@@ -86,6 +87,7 @@ const Layout = () => {
           <Sport data={sportData} key={index} />
         ))}
       </div>
+      <Footer/>
     </div>
   );
 };

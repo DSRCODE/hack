@@ -39,24 +39,34 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Monitoring</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#service1">Service 1</NavDropdown.Item>
-            <NavDropdown.Item href="#service2">Service 2</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Service 3</NavDropdown.Item>
+            <NavDropdown.Item href="#service1">Sports</NavDropdown.Item>
+            <NavDropdown.Item href="#service2">Cricket</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Football</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Badminton</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Athelete</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Basket Ball</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Table Tennis</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Golf</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Archery</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown
             title={<span className="custom-dropdown-title">Orientation</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-            <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
+            <NavDropdown.Item href="#team">Awareness</NavDropdown.Item>
+            <NavDropdown.Item href="#careers">Tranning</NavDropdown.Item>
+            <NavDropdown.Item href="#careers">Success Stories</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown
             title={<span className="custom-dropdown-title">Funds</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-            <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
+            <NavDropdown.Item href="#team">Association Funds</NavDropdown.Item>
+            <NavDropdown.Item href="#careers">Academy Funds</NavDropdown.Item>
+            <NavDropdown.Item href="#careers">
+              Players Scholarships
+            </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown
             title={

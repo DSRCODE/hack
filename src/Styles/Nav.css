@@ -25,12 +25,12 @@
   /* margin-inline-start: 20px; */
 }
 .login-signup-part {
-  margin-inline-end: 50px;
+  margin-inline-end: 20px;
 }
 .custom-dropdown-title {
   color: #fffffff3;
-  font-size: 18px;
-  padding: 5px; 
+  font-size: 14px;
+  padding: 5px;
 }
 
 .custom-dropdown-title:hover {
@@ -44,6 +44,8 @@
   color: rgba(240, 248, 255, 0.748);
 }
 .logo-nav{
-    width: 60%;
+    /* width: 60%; */
+    height: 80px;
+    margin-left: 1rem;
     object-fit: cover;
 }
