@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Nav from "../Components/Nav"
+import Footer from "./Footer";
 const PlayerForm = () => {
   const [formData, setFormData] = useState({
     playerName: "",
@@ -27,7 +28,7 @@ const PlayerForm = () => {
     <>
     <Nav/>
       <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 flex items-center justify-center">
-        <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
+        <div className="bg-white rounded-lg shadow-lg p-8 max-w-4xl w-full">
           <h1 className="text-2xl font-bold text-gray-700 mb-6 text-center">
             Submit Your Issue
           </h1>
@@ -105,7 +106,7 @@ const PlayerForm = () => {
           </form>
         </div>
       </div>
-      
+      <Footer/>
     </>
   );
 };

@@ -18,8 +18,8 @@ const Footer = () => {
           </p>
           <p>
             T: +91 11 ********** | E:{" "}
-            <a href="mailto:ioa@olympic.ind.in">ioa@******.ind.in</a> | W:{" "}
-            <a href="https://www.olympic.ind.in">www.*******.ind.in</a>
+            <a href="mailto:ioa@olympic.ind.in">ioa@.ind.in</a> | W:{" "}
+            <a href="https://www.olympic.ind.in">www.*.ind.in</a>
           </p>
         </div>
 
@@ -69,4 +69,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;

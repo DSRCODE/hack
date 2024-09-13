@@ -119,6 +119,7 @@ const Blogs = () => {
         <div className="mx-auto py-4  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-10 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <article
+             data-aos="fade-up"
               key={post.id}
               className="flex max-w-xl flex-col shadow-md   p-10  items-start justify-between"
             >
@@ -161,7 +162,7 @@ const Blogs = () => {
                 </div>
               </div>
               <div style={{width:"100%",display:"flex", justifyContent:"flex-end"}}>
-                <button style={{background:"blue",color:'white', padding:"5px", borderRadius:"4px"}} onClick={()=> navigate("/story")}>Read More</button>
+                <button style={{background:"#4f9cfc",color:'white', padding:"5px", borderRadius:"4px"}} onClick={()=> navigate("/story")}>Read More</button>
               </div>
             </article>
           ))}

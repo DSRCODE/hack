@@ -26,6 +26,10 @@ const Nav = () => {
       />
       <Navbar.Collapse id="basic-navbar-nav" className="Navbar-items">
         <BootstrapNav className="ml-auto  navbar-content">
+          <NavDropdown onClick={()=>navigate("/")}  title={<span className="">Home</span>}
+            id="basic-nav-dropdown">
+          
+          </NavDropdown>
           <NavDropdown
             title={<span className="custom-dropdown-title">Sports</span>}
             id="basic-nav-dropdown"
@@ -33,6 +37,8 @@ const Nav = () => {
             <NavDropdown.Item onClick={() => navigate("/sportDet")}>
               Cricket
             </NavDropdown.Item>
+
+            <NavDropdown.Item href="#home">Cricket</NavDropdown.Item>
             <NavDropdown.Item href="#services">Football</NavDropdown.Item>
             <NavDropdown.Item href="#about">Badminton</NavDropdown.Item>
             <NavDropdown.Item href="#about">Athelete</NavDropdown.Item>
@@ -46,9 +52,8 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Monitoring</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#service3">Association</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Academy </NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Player</NavDropdown.Item>
+            <NavDropdown.Item href="#service3" onClick={()=>navigate("/allplayer")}>Player</NavDropdown.Item>
+            <NavDropdown.Item href="#service3" onClick={()=>navigate("/academy")}>Academy  </NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown
@@ -58,8 +63,8 @@ const Nav = () => {
             <NavDropdown.Item onClick={() => navigate("/awareness")}>
               Awareness
             </NavDropdown.Item>
+            <NavDropdown.Item href="#careers" onClick={()=>navigate("/story")}>Success Stories</NavDropdown.Item>
             <NavDropdown.Item href="#careers">Tranning</NavDropdown.Item>
-            <NavDropdown.Item href="#careers">Success Stories</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown
             title={<span className="custom-dropdown-title">Funds</span>}
@@ -73,7 +78,7 @@ const Nav = () => {
           </NavDropdown>
           <NavDropdown
             title={
-              <span className="custom-dropdown-title">Future & Scopes</span>
+              <span className="custom-dropdown-title" onClick={()=>navigate("/future")}>Future & Scopes</span>
             }
             id="basic-nav-dropdown"
           ></NavDropdown>
@@ -92,14 +97,14 @@ const Nav = () => {
             <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown
-            title={<span className="custom-dropdown-title">Sports Media</span>}
+            title={<span className="custom-dropdown-title" onClick={()=>navigate("/social")}>Sports Media</span>}
             id="basic-nav-dropdown"
           ></NavDropdown>
           <NavDropdown
             title={
               <span className="custom-dropdown-title">
                 {" "}
-                <span style={{ color: "red" }}> Women</span> Empowerment
+                <span > Women</span> Empowerment
               </span>
             }
             id="basic-nav-dropdown"

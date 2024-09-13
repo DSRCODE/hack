@@ -27,7 +27,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           {/* Funding & Resources */}
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",
@@ -45,7 +45,7 @@ const About = () => {
           </div>
           {/* Athlete Monitoring */}
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",
@@ -63,7 +63,7 @@ const About = () => {
           </div>
           {/* Academies & Associations */}
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",
@@ -81,7 +81,7 @@ const About = () => {
           </div>
           {/* Grievance Redressal */}
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",
@@ -99,7 +99,7 @@ const About = () => {
           </div>
           {/* Scholarships & Financial Aid */}
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",
@@ -117,7 +117,7 @@ const About = () => {
           </div>
           {/* Awareness Programs */}
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",
@@ -135,7 +135,7 @@ const About = () => {
           </div>
           {/* Sports Education */}
           <div
-            data-aos="fade-right"
+            data-aos="fade-up"
             style={{
               boxShadow:
                 " rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35,  0.15) 0px 0px 0px 1px ",

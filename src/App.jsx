@@ -10,6 +10,11 @@ import SportsDet from "./Pages/SportsDet";
 import WomenEmpowerment from "./Pages/WomenEmpowerment";
 import AwarenessPage from "./Pages/AwarenessPage";
 import PlayerForm from "./Pages/PlayerForm";
+import FutureScope from "./Components/FutureScope";
+import UserProfile from "./Components/UserProfile";
+import AllUser from "./Pages/AllUser";
+import Allacademy from "./Pages/Allacademy";
+import SocialMedia from "./Pages/SocialMedia";
 
 function App() {
   return (
@@ -23,6 +28,12 @@ function App() {
         <Route path="/empowerment" element={<WomenEmpowerment />} />
         <Route path="/awareness" element={<AwarenessPage />} />
         <Route path="/playerform" element={<PlayerForm/>} />
+        <Route path="/SportDet" element={<SportsDet/>} />
+        <Route path="/future" element={<FutureScope />} />
+        <Route path="/user" element={<UserProfile />} />
+        <Route path="/academy" element={<Allacademy />} />
+        <Route path="/allplayer" element={<AllUser />} />
+        <Route path="/social" element={<SocialMedia />} />
       </Routes>
     </Router>
   );

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Nav from "../Components/Nav";
+import Footer from "./Footer";
 
 const WomenEmpowerment = () => {
   useEffect(() => {
@@ -12,10 +14,12 @@ const WomenEmpowerment = () => {
   }, []);
 
   return (
+    <>
+      <Nav/>
     <div
       className="bg-fixed bg-cover bg-center py-16 px-6"
       style={{
-        backgroundImage: `url('https://news.asu.edu/sites/default/files/styles/block_image_16_9_lge/public/article_heros/hero_blue.jpg?itok=04ah8rJE')`, // Replace with an actual image URL from Google Images or Unsplash
+        backgroundImage: `url('https://miro.medium.com/v2/resize:fit:1400/1*LCsZ6be0WQM3sBYbxhgydA.jpeg')`, // Replace with an actual image URL from Google Images or Unsplash
       }}
     >
       <div className="bg-black bg-opacity-50 py-16 px-6">
@@ -180,6 +184,8 @@ const WomenEmpowerment = () => {
         </div>
       </div>
     </div>
+      <Footer/>
+    </>
   );
 };
 

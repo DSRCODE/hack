@@ -1,8 +1,10 @@
-.sport-part {
-  display: flex;
-  padding: 10px 0;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-radius: 8px;
-  margin: 5rem;
-}   
+   
+.sport-part{
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

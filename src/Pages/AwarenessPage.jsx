@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Nav from "../Components/Nav";
+import Footer from "./Footer";
 
 const AwarenessPage = () => {
   useEffect(() => {
@@ -12,6 +14,8 @@ const AwarenessPage = () => {
   }, []);
 
   return (
+    <>
+    <Nav/>
     <div
       className="bg-fixed bg-cover bg-center py-16 px-6"
       style={{
@@ -217,6 +221,8 @@ const AwarenessPage = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

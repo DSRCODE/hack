@@ -10,6 +10,8 @@ import SportsDet from '../Pages/SportsDet'
 import WomenEmpowerment from '../Pages/WomenEmpowerment'
 import AwarenessPage from '../Pages/AwarenessPage'
 import PlayerForm from '../Pages/PlayerForm'
+import Footer from '../Pages/Footer'
+import FutureScope from '../Components/FutureScope'
 const Layout = () => {
   const sportData = [
     {
@@ -88,14 +90,15 @@ const Layout = () => {
     <div>
       <Nav />
       <Slider />
+    <Services/>
       <div className="sport-part">
         {sportData.map((sportData, index) => (
           <Sport data={sportData} key={index} />
         ))}
       </div>
-    <Services/>
     <Blogs/>
     <About/>
+    <Footer/>
     </div>
   );
 };

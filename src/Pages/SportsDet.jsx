@@ -1,8 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import Nav from "../Components/Nav";
+import Footer from "./Footer";
+
 
 const SportsDet = () => {
+  const navigate = useNavigate();
   return (
+    <>
+    <Nav/>
     <div className="bg-gray-100 py-16 px-6" id="Cricket">
+       
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h1
@@ -212,6 +220,8 @@ const SportsDet = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
