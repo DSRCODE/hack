@@ -30,7 +30,9 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Sports</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#home">Cricket</NavDropdown.Item>
+            <NavDropdown.Item onClick={() => navigate("/SportDet")}>
+              Cricket
+            </NavDropdown.Item>
             <NavDropdown.Item href="#services">Football</NavDropdown.Item>
             <NavDropdown.Item href="#about">Badminton</NavDropdown.Item>
             <NavDropdown.Item href="#about">Athelete</NavDropdown.Item>
@@ -83,9 +85,7 @@ const Nav = () => {
           <NavDropdown
             title={<span className="custom-dropdown-title">Sports Media</span>}
             id="basic-nav-dropdown"
-          >
-           
-          </NavDropdown>
+          ></NavDropdown>
           <NavDropdown
             title={
               <span className="custom-dropdown-title">
@@ -94,9 +94,7 @@ const Nav = () => {
               </span>
             }
             id="basic-nav-dropdown"
-          >
-            
-          </NavDropdown>
+          ></NavDropdown>
         </BootstrapNav>
         <BootstrapNav className="mr-auto login-signup-part">
           <BootstrapNav.Link

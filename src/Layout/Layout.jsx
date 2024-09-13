@@ -5,6 +5,8 @@ import Sport from '../Components/LandingPage/Sport'
 import Services from '../Components/LandingPage/Services'
 import Blogs from '../Components/LandingPage/Blogs'
 import "../Styles/Layout.css"
+import About from '../Pages/About'
+import SportsDet from '../Pages/SportsDet'
 const Layout = () => {
   const sportData = [
     {
@@ -90,6 +92,7 @@ const Layout = () => {
       </div>
     <Services/>
     <Blogs/>
+    <About/>
     </div>
   );
 };
