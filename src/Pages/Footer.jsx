@@ -1,46 +1,72 @@
-import React from 'react';
-import './Footer.css'; // Import your custom styles
+import React from "react";
+import "./Footer.css"; // Import your custom styles
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
-        <div className="footer-section">
-          <h4>Important Links</h4>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-sai">About SAI</a></li>
-            <li><a href="#schemes">Schemes</a></li>
-            <li><a href="#stadia">Stadia</a></li>
-            <li><a href="#rti">RTI</a></li>
-            <li><a href="#press-release">Press Release</a></li>
-            <li><a href="#actc">ACTC</a></li>
-            <li><a href="#khelo-india">Khelo India</a></li>
-            <li><a href="#fit-india">Fit India</a></li>
-            <li><a href="#ncoe">NCOE</a></li>
-            <li><a href="#tops">TOPS</a></li>
-            <li><a href="#e-pathashala">E-Pathashala</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#infrastructure">Infrastructure</a></li>
-            <li><a href="#photo-gallery">Photo Gallery</a></li>
+    <div className="footer-container">
+      <div className="container foter_container">
+        <div className="footer_logo">
+          <img
+            src="https://olympic.ind.in/public/img/img/footer_logo.png"
+            className="img-fluid"
+            alt="Indian Olympic Association Logo"
+          />
+          <h3>All INDIA SPORTS MANAGEMENT </h3>
+          <p>
+            Olympic Bhawan, B-29, Qutub Institutional Area, New Delhi 110016,
+            INDIA
+          </p>
+          <p>
+            T: +91 11 ********** | E:{" "}
+            <a href="mailto:ioa@olympic.ind.in">ioa@******.ind.in</a> | W:{" "}
+            <a href="https://www.olympic.ind.in">www.*******.ind.in</a>
+          </p>
+        </div>
+
+        <div className="social_media">
+          <h3>
+            Follow <span style={{fontWeight:"800px"}}>#WeAreMonetringIndia</span>
+          </h3>
+          <ul className="social_links">
+            <li>
+              <a
+                href="https://www.facebook.com/WeAreTeamIndia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/WeAreTeamIndia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/weareteamindia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
           </ul>
         </div>
-        <div className="footer-section">
-          <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#job-opportunities">Job Opportunities</a></li>
-            <li><a href="#results">Results</a></li>
-            <li><a href="#sai-elibrary">SAI e-Library</a></li>
-            <li><a href="#downloads">Downloads</a></li>
-            <li><a href="#old-website">Old Website</a></li>
-            <li><a href="#integrity-pledge">Integrity Pledge</a></li>
-            <li><a href="#apply-online-jobs">Apply Online Jobs</a></li>
-            <li><a href="#narakas">Narakas</a></li>
-          </ul>
+
+        <div className="copyright">
+          <p>
+            <a href="https://olympic.ind.in/site-map"></a> | Copyright © 2024
+            The Voids. All Rights Reserved
+          </p>
         </div>
       </div>
-    </footer>
+    </div>
   );
-}
+};
 
 export default Footer;
