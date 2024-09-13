@@ -3,9 +3,11 @@ import { Navbar, Nav as BootstrapNav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Nav.css";
 import logo  from "../assets/Img/logof.png";
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
   const [expanded, setExpanded] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <Navbar
@@ -93,10 +95,10 @@ const Nav = () => {
           </NavDropdown>
         </BootstrapNav>
         <BootstrapNav className="mr-auto login-signup-part">
-          <BootstrapNav.Link href="#login" className="btn-signup">
+          <BootstrapNav.Link href="#login" onClick={()=>navigate("/login")} className="btn-signup">
             Login
           </BootstrapNav.Link>
-          <BootstrapNav.Link href="#signup" className="btn-signup">
+          <BootstrapNav.Link href="#signup" onClick={()=>navigate("/signup")}  className="btn-signup">
             Signup
           </BootstrapNav.Link>
         </BootstrapNav>
