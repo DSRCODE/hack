@@ -1,18 +1,23 @@
-import React from 'react'
-import "../../Styles/Sport.css"
+import React from "react";
+import "../../Styles/Sport.css";
 
-const Sport = () => {
+const Sport = ({ data }) => {
   return (
-    <div className="Sport-cards">
+    <div
+      className="Sport-cards"
+      style={{
+        backgroundImage: `url(${data.backImg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="sport-content">
-        <img
-          src="https://olympic.ind.in/public/images/sports/2063869361.png"
-          alt=""
-        />
-        <h4>Cycling</h4>
+        <img src={data.icon} alt="" />
+        <h4>{data.name}</h4>
       </div>
     </div>
   );
-}
+};
 
-export default Sport
+export default Sport;
