@@ -9,6 +9,7 @@ import About from '../Pages/About'
 import SportsDet from '../Pages/SportsDet'
 import WomenEmpowerment from '../Pages/WomenEmpowerment'
 import AwarenessPage from '../Pages/AwarenessPage'
+import PlayerForm from '../Pages/PlayerForm'
 const Layout = () => {
   const sportData = [
     {

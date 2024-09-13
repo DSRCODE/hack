@@ -9,6 +9,7 @@ import SucessStory from "./Components/SucessStory";
 import SportsDet from "./Pages/SportsDet";
 import WomenEmpowerment from "./Pages/WomenEmpowerment";
 import AwarenessPage from "./Pages/AwarenessPage";
+import PlayerForm from "./Pages/PlayerForm";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/sportDet" element={<SportsDet />} />
         <Route path="/empowerment" element={<WomenEmpowerment />} />
         <Route path="/awareness" element={<AwarenessPage />} />
+        <Route path="/playerform" element={<PlayerForm/>} />
       </Routes>
     </Router>
   );

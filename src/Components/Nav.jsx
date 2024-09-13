@@ -78,7 +78,14 @@ const Nav = () => {
             id="basic-nav-dropdown"
           ></NavDropdown>
           <NavDropdown
-            title={<span className="custom-dropdown-title">Grievance</span>}
+            title={
+              <span
+                className="custom-dropdown-title"
+                onClick={() => navigate("/playerform")}
+              >
+                Grievance
+              </span>
+            }
             id="basic-nav-dropdown"
           >
             <NavDropdown.Item href="#team">Team</NavDropdown.Item>
