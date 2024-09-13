@@ -39,7 +39,6 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Monitoring</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#service1">Sports</NavDropdown.Item>
             <NavDropdown.Item href="#service2">Cricket</NavDropdown.Item>
             <NavDropdown.Item href="#service3">Football</NavDropdown.Item>
             <NavDropdown.Item href="#service3">Badminton</NavDropdown.Item>

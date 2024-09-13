@@ -24,8 +24,8 @@ const Layout = () => {
     },
     {
       name: "Badminton",
-      backImg: "https://olympic.ind.in/public/images/sports/470187829.jpg",
-      icon: "https://olympic.ind.in/public/images/sports/1093383875.jpg",
+      backImg: "https://olympic.ind.in/public/images/sports/1093383875.jpg",
+      icon: "https://olympic.ind.in/public/images/sports/924196402.png",
     },
     {
       name: "BasketBall",
@@ -44,8 +44,8 @@ const Layout = () => {
     },
     {
       name: "Kabaddi",
-      backImg: "https://olympic.ind.in/public/images/sports/1145119640.jpg",
-      icon: "https://olympic.ind.in/public/images/sports/1691167555.jpg",
+      backImg: "https://olympic.ind.in/public/images/sports/1691167555.jpg",
+      icon: "https://olympic.ind.in/public/images/sports/719525092.png",
     },
     {
       name: "TakeWondo",
@@ -74,8 +74,8 @@ const Layout = () => {
     },
     {
       name: "Archery",
-      backImg: "https://olympic.ind.in/public/images/sports/834814595.jpg",
-      icon: "https://olympic.ind.in/public/images/sports/2063869361.png",
+      backImg: "https://olympic.ind.in/public/images/sports/391374448.jpg",
+      icon: "https://olympic.ind.in/public/images/sports/1628651552.png",
     },
   ];
   return (

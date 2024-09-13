@@ -7,23 +7,26 @@
     height: 300px;
     transition: 0.5s all ;
     margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 .sport-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
 
 }
 .sport-content img{
     transition: all 0.4s;
     transform-origin: bottom;
     width: 100%;
-    position: absolute;
     transform: scale(0);
     transition: transform 0.5s ease-in-out;
     bottom: 100%;
 }
 .sport-content{
-    position: absolute;
-    bottom: 5%;
-    left:32%;
+   
 }
 .sport-content h4{
     font-size: 2rem;
