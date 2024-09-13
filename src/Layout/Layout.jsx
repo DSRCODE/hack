@@ -7,6 +7,8 @@ import Blogs from '../Components/LandingPage/Blogs'
 import "../Styles/Layout.css"
 import About from '../Pages/About'
 import SportsDet from '../Pages/SportsDet'
+import WomenEmpowerment from '../Pages/WomenEmpowerment'
+import AwarenessPage from '../Pages/AwarenessPage'
 const Layout = () => {
   const sportData = [
     {

@@ -30,7 +30,7 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Sports</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item onClick={() => navigate("/SportDet")}>
+            <NavDropdown.Item onClick={() => navigate("/sportDet")}>
               Cricket
             </NavDropdown.Item>
             <NavDropdown.Item href="#services">Football</NavDropdown.Item>
@@ -55,7 +55,9 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Orientation</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#team">Awareness</NavDropdown.Item>
+            <NavDropdown.Item onClick={() => navigate("/awareness")}>
+              Awareness
+            </NavDropdown.Item>
             <NavDropdown.Item href="#careers">Tranning</NavDropdown.Item>
             <NavDropdown.Item href="#careers">Success Stories</NavDropdown.Item>
           </NavDropdown>
@@ -90,10 +92,11 @@ const Nav = () => {
             title={
               <span className="custom-dropdown-title">
                 {" "}
-                <span style={{ color: "yellow" }}> Women</span> Empowerment
+                <span style={{ color: "red" }}> Women</span> Empowerment
               </span>
             }
             id="basic-nav-dropdown"
+            onClick={() => navigate("/empowerment")}
           ></NavDropdown>
         </BootstrapNav>
         <BootstrapNav className="mr-auto login-signup-part">

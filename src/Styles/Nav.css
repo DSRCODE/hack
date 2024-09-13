@@ -26,7 +26,6 @@
   /* margin-inline-start: 20px; */
 }
 .login-signup-part {
-  margin-inline-end: 20px;
 }
 .custom-dropdown-title {
   color: #fffffff3;
@@ -42,7 +41,7 @@
   font-size: 16px;
   font-weight: bold;
   padding: 5px;
-  color: rgba(240, 248, 255, 0.748);
+  color: white;
 }
 .logo-nav{
     /* width: 60%; */
