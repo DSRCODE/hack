@@ -14,7 +14,7 @@ const Sport = ({ data }) => {
     >
       <div className="sport-content">
         <img src={data.icon} alt="" />
-        <h4>{data.name}</h4>
+        <h4 style={{fontWeight:"800"}}>{data.name}</h4>
       </div>
     </div>
   );

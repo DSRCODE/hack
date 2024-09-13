@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <Navbar
-      bg="dark"
+      // bg="dark"
       variant="dark"
       expand="lg"
       expanded={expanded}
