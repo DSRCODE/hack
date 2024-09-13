@@ -50,7 +50,7 @@ const Services = () => {
 
   return (
     <div className='addservices'>
-        <h2 className="font-z-25" style={{fontSize:"25px",fontWeight:"600 "}}>Services</h2>
+        <h2 className="font-z-25" style={{fontSize:"28px",fontWeight:"600 "}}>Services</h2>
       <div className="services-container">
         {services.map((service) => (
           <div

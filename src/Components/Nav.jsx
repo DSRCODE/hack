@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Navbar, Nav as BootstrapNav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Nav.css";
-import logo  from "../assets/Img/logof.png";
+import logo from "../assets/Img/logof.png";
 import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
@@ -31,22 +31,22 @@ const Nav = () => {
             id="basic-nav-dropdown"
           >
             <NavDropdown.Item href="#home">Cricket</NavDropdown.Item>
-            <NavDropdown.Item href="#services">Services</NavDropdown.Item>
-            <NavDropdown.Item href="#about">About</NavDropdown.Item>
+            <NavDropdown.Item href="#services">Football</NavDropdown.Item>
+            <NavDropdown.Item href="#about">Badminton</NavDropdown.Item>
+            <NavDropdown.Item href="#about">Athelete</NavDropdown.Item>
+            <NavDropdown.Item href="#about">Basket Ball</NavDropdown.Item>
+            <NavDropdown.Item href="#about">Table Tennis</NavDropdown.Item>
+            <NavDropdown.Item href="#about">Golf</NavDropdown.Item>
+            <NavDropdown.Item href="#about">Archery</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown
             title={<span className="custom-dropdown-title">Monitoring</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#service2">Cricket</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Football</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Badminton</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Athelete</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Basket Ball</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Table Tennis</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Golf</NavDropdown.Item>
-            <NavDropdown.Item href="#service3">Archery</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Association</NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Academy </NavDropdown.Item>
+            <NavDropdown.Item href="#service3">Player</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown
@@ -72,10 +72,7 @@ const Nav = () => {
               <span className="custom-dropdown-title">Future & Scopes</span>
             }
             id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-            <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
-          </NavDropdown>
+          ></NavDropdown>
           <NavDropdown
             title={<span className="custom-dropdown-title">Grievance</span>}
             id="basic-nav-dropdown"
@@ -87,8 +84,7 @@ const Nav = () => {
             title={<span className="custom-dropdown-title">Sports Media</span>}
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-            <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
+           
           </NavDropdown>
           <NavDropdown
             title={
@@ -99,15 +95,22 @@ const Nav = () => {
             }
             id="basic-nav-dropdown"
           >
-            <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-            <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
+            
           </NavDropdown>
         </BootstrapNav>
         <BootstrapNav className="mr-auto login-signup-part">
-          <BootstrapNav.Link href="#login" onClick={()=>navigate("/login")} className="btn-signup">
+          <BootstrapNav.Link
+            href="#login"
+            onClick={() => navigate("/login")}
+            className="btn-signup"
+          >
             Login
           </BootstrapNav.Link>
-          <BootstrapNav.Link href="#signup" onClick={()=>navigate("/signup")}  className="btn-signup">
+          <BootstrapNav.Link
+            href="#signup"
+            onClick={() => navigate("/signup")}
+            className="btn-signup"
+          >
             Signup
           </BootstrapNav.Link>
         </BootstrapNav>

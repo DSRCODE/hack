@@ -4,6 +4,7 @@ import Slider from '../Components/LandingPage/Slider'
 import Sport from '../Components/LandingPage/Sport'
 import Services from '../Components/LandingPage/Services'
 import Blogs from '../Components/LandingPage/Blogs'
+import "../Styles/Layout.css"
 const Layout = () => {
   const sportData = [
     {
@@ -87,10 +88,6 @@ const Layout = () => {
           <Sport data={sportData} key={index} />
         ))}
       </div>
-      <Footer/>
-    <Nav/>
-    <Slider/>
-    <Sport/>
     <Services/>
     <Blogs/>
     </div>
