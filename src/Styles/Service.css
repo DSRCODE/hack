@@ -1,0 +1,55 @@
+.addservices{
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.addservices h2{
+    margin-left: 2rem;
+    width: 100%;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-bottom: 1rem;
+  }
+  
+  .service-box {
+    color: white;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: rgb(128, 96, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 300px;
+    max-width: 450px;
+    min-height: 14rem;
+    transition: 0.3s;
+  }
+  .service-box:hover{
+    scale: 1.02;
+  }
+  
+  .service-box h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .service-box p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+  }
+  
+  .service-box .icon {
+    font-size: 2.5rem;
+    color: #ff7b00; /* Customize this color for each icon if needed */
+  }
+
+  
