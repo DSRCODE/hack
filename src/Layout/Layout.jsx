@@ -1,9 +1,9 @@
-import React from "react";
-import Nav from "../Components/Nav";
-import Slider from "../Components/LandingPage/Slider";
-import Sport from "../Components/LandingPage/Sport";
-import "../Styles/Layout.css"
-import Footer from "../Pages/Footer";
+import React from 'react'
+import Nav from '../Components/Nav'
+import Slider from '../Components/LandingPage/Slider'
+import Sport from '../Components/LandingPage/Sport'
+import Services from '../Components/LandingPage/Services'
+import Blogs from '../Components/LandingPage/Blogs'
 const Layout = () => {
   const sportData = [
     {
@@ -88,6 +88,11 @@ const Layout = () => {
         ))}
       </div>
       <Footer/>
+    <Nav/>
+    <Slider/>
+    <Sport/>
+    <Services/>
+    <Blogs/>
     </div>
   );
 };
