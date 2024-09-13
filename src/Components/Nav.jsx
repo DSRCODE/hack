@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Navbar, Nav as BootstrapNav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Nav.css";
+import logo  from "../assets/Img/logof.png";
 
 const Nav = () => {
   const [expanded, setExpanded] = useState(false);
@@ -15,6 +16,7 @@ const Nav = () => {
       className="Navbar-parent"
     >
       <Navbar.Brand href="#home" className="ml-auto  navBar-logo">
+        <img src={logo} alt="" className="logo-nav" />
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"

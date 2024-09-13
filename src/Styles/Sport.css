@@ -1,0 +1,31 @@
+.Sport-cards{
+    background: url("https://olympic.ind.in/public/images/sports/834814595.jpg");
+    width: 24%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+.sport-content img{
+    transform: translateX(-500px);
+    transition: all 0.4s;
+    transform-origin: left;
+}
+.sport-content{
+    position: absolute;
+    bottom: 5%;
+    left:30%;
+    text-align: center;
+}
+.sport-content h4{
+    font-size: 2rem;
+    color: #fff;
+}
+.sport-content:hover{
+   background-image: ;
+}
+.sport-content:hover img {
+    transform: translateX(10px);
+    transition: transform 0.5s ease-in-out; 
+   
+}
